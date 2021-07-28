@@ -1,8 +1,8 @@
-<img src="./Screenshot/splashscreen.png" width="100%">
-<img src="./Screenshot/main.png" width="100%">
-<img src="./Screenshot/main2.png" width="100%">
-<img src="./Screenshot/precautions.png" width="100%">
-<img src="./Screenshot/symptoms.png" width="100%">
+<img src="./Screenshot/splashscreen.jpeg" width="100%">
+<img src="./Screenshot/main.jpeg" width="100%">
+<img src="./Screenshot/main2.jpeg" width="100%">
+<img src="./Screenshot/precautions.jpeg" width="100%">
+<img src="./Screenshot/symptoms.jpeg" width="100%">
 
 # Covid App
 
