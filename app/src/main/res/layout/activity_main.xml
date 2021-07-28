@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/dark"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark"
+        tools:context=".MainActivity">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gilroy_bold"
+                android:text="Global 🌎"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    app:cardBackgroundColor="@color/colorWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/gilroy_light"
+                            android:text="Confirmed"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/txtInfected"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gilroy_bold"
+                            android:text="100000000"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorRed"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:fontFamily="@font/gilroy_light"
+                                android:text="Recovered"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/txtRecoverd"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/gilroy_bold"
+                                android:text="100000000"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorGreen"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:fontFamily="@font/gilroy_light"
+                                android:text="Deceased"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/txtDeceased"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/gilroy_bold"
+                                android:text="4000000"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorGray"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/from_here"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/gilroy_bold"
+                    android:text="India 🇮🇳"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    app:cardBackgroundColor="@color/colorWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/gilroy_light"
+                            android:text="Total Cases"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="20sp"/>
+                        <TextView
+                            android:id="@+id/txtIndinfected"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gilroy_bold"
+                            android:text="30000000"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorRed"
+                            android:textSize="20sp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gilroy_light"
+                            android:text="Todays Cases"
+                            android:textAlignment="center"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="20sp" />
+                        <TextView
+                            android:id="@+id/txtIndtoday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gilroy_bold"
+                            android:text="100"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorRed"
+                            android:textSize="20sp" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:fontFamily="@font/gilroy_light"
+                                android:text="Recovered"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/txtIndrecovered"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/gilroy_bold"
+                                android:text="30000000"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorGreen"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:fontFamily="@font/gilroy_light"
+                                android:text="Deceased"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/txtInddeceased"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/gilroy_bold"
+                                android:text="400000"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorGray"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/gilroy_bold"
+                    android:text="Karnataka󠁩󠁮󠁫󠁡󠁿󠁩󠁮"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:fontFamily="@font/gilroy_bold"
+                                android:text="Bengaluru"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="20sp" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:fontFamily="@font/gilroy_light"
+                                android:text="Confirmed"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/txtBengaluru"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/gilroy_bold"
+                                android:text="1000000"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorRed"
+                                android:textSize="20sp" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:fontFamily="@font/gilroy_light"
+                                android:text="Recovered"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/txtBenrecover"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/gilroy_bold"
+                                android:text="1000000"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorGreen"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/gilroy_bold"
+                    android:text="Symptoms"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtViewSymptoms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="@font/gilroy_light"
+                    android:text="View all"
+                    android:textColor="@color/snowWhite"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:itemCount="3"
+                tools:listitem="@layout/item_symptoms" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorWhite"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/gilroy_bold"
+                            android:text="To Know More About COVID-19"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/btnKnowMore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/gilroy_bold"
+                            android:text="Click Here"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textAllCaps="false"
+                            android:background="@color/colorDarkBlue"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/corona"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/gilroy_bold"
+                    android:text="Precautions"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtViewPrecautions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="@font/gilroy_light"
+                    android:text="View all"
+                    android:textColor="@color/snowWhite"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewPrecautions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:itemCount="6"
+                tools:listitem="@layout/item_precautions" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/gilroy_light"
+                            android:textStyle="bold"
+                            android:text="Made by Sushanth UV"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="10dp"/>
+
+                    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnGithub"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorWhite"
+                            android:fontFamily="@font/gilroy_bold"
+                            android:src="@drawable/github"
+                            android:textAllCaps="false"
+                            android:textSize="10sp" />
+
+                        <ImageButton
+                            android:id="@+id/btnLinkedIn"
+                            android:layout_weight="1"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:fontFamily="@font/gilroy_bold"
+                            android:textAllCaps="false"
+                            android:background="@color/colorWhite"
+                            android:src="@drawable/linkedin"
+                            android:textSize="10sp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
