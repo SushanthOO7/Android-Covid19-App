@@ -1,11 +1,12 @@
-<img src="./Screenshot/splashscreen.jpeg" width="20%"><img src="./Screenshot/main.jpeg" width="20%">
-<img src="./Screenshot/main2.jpeg" width="20%"><img src="./Screenshot/precautions.jpeg" width="20%"><img src="./Screenshot/symptoms.jpeg" width="20%">
+
 
 # Covid App
 
 This is a kotlin based simple covid app having global numbers of corona cases.
 One of the first simple apps I created while on my journey to learn kotlin.
 
+<img src="./Screenshot/splashscreen.jpeg" width="20%"><img src="./Screenshot/main.jpeg" width="20%">
+<img src="./Screenshot/main2.jpeg" width="20%"><img src="./Screenshot/precautions.jpeg" width="20%">
 
 ##### Download APK
 <pre><a href="https://github.com/SushanthOO7/Android-Covid19-App/blob/main/app-debug.apk">Covid-19</a></pre>
