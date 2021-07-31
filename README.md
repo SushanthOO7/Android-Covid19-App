@@ -40,7 +40,7 @@ git clone https://github.com/SushanthOO7/Android-Covid19-App.git
 
 ## License
 
-This project follows the [MIT License](/LICENSE).
+This project follows the [Permit License](/LICENSE).
 
 ## Connect with me
 
